@@ -1,0 +1,7 @@
+{
+  "name": "AppLAravel",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}

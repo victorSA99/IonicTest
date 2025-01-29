@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Agendador de Citas</string>
+    <string name="title_activity_main">Agendador de Citas</string>
+    <string name="package_name">com.myapp.citas</string>
+    <string name="custom_url_scheme">com.myapp.citas</string>
+</resources>

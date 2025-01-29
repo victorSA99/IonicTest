@@ -1,0 +1,55 @@
+/* Login.css */
+
+/* Fondo de la pantalla y contenedor de login */
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  padding-top: 30px;
+}
+
+/* Estilo de la imagen de login */
+.login-image {
+  text-align: center;
+  margin-bottom: 30px; /* Aumentamos el espacio */
+}
+
+.login-img {
+  width: 200px; /* Aumentamos el tamaño de la imagen */
+  height: 200px;
+  border-radius: 50%; /* Hace que la imagen sea circular */
+  object-fit: cover;
+  margin-bottom: 30px;
+}
+
+/* Estilo del formulario */
+ion-item {
+  margin-bottom: 20px; /* Aumentamos el margen entre los campos */
+}
+
+.input-field {
+  font-size: 16px; /* Aumentamos el tamaño del texto */
+}
+
+ion-button {
+  font-size: 18px;
+  height: 50px; /* Aumentamos la altura del botón */
+}
+
+/* Estilo de los botones */
+ion-button {
+  background-color: #4caf50;
+  color: white;
+  border-radius: 25px; /* Bordes más suaves */
+}
+
+ion-button:hover {
+  background-color: #45a049;
+}
+
+/* Aseguramos que la alerta de carga no se superponga */
+ion-loading {
+  z-index: 10;
+}
